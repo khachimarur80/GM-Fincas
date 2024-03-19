@@ -47,7 +47,7 @@
             src: require("@/assets/icons/llave-de-casa.svg"),
             alt: "Icono de llave de casa",
           },
-          name: "+ de 30 años de experiencia",
+          name: "Más de 30 años de experiencia",
           text: "Nuestra trayectoria garantiza confianza y profesionalismo. ¡30 años liderando en gestión de comunidades!"
         },
         {
