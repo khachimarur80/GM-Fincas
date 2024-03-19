@@ -11,6 +11,7 @@
     </div>
     <div class="contents">
       <iframe
+        title="Google maps localización GM Fincas"
         width="600"
         height="450"
         frameborder="0"
