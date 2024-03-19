@@ -25,8 +25,8 @@
         lazySrc: require('@/assets/lazy-images/hero/hero.webp'),
         alt: '',
       },
-      slogan: "La excelencia en la administración de fincas",
-      text: "GM Fincas, una empresa fuerte con 30 años de experiencia, se dedica a la gestión integral de comunidades. Especializados en contabilidad, solucionamos incidencias y brindamos atención personalizada. Confía en nosotros para la tranquilidad de tu comunidad.",
+      slogan: "Porque cada vecino importa, cada gestión cuenta.",
+      text: "GM Fincas, una empresa con 30 años de experiencia, nos dedicamos a la gestión integral de comunidades. Especializados en contabilidad, solucionamos incidencias y brindamos atención personalizada. Confía en nosotros para la tranquilidad de tu comunidad.",
     })
   }
   </script>
