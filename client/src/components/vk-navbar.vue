@@ -2,6 +2,7 @@
   <div class="navbar">
     <div class="navbar-header">
       <div class="navbar-logo">
+        <img :alt="logo.alt" :src="logo.src" height="100%"/>
       </div>
       <div class="navbar-title">
         GM Fincas
@@ -20,9 +21,8 @@ export default {
   name: 'HelloWorld',
   data: () => ({
     logo: {
-      src: require('@/assets/logo.png'),
-      lazySrc: require('@/assets/logo.png'),
-      alt: '',
+      src: require('@/assets/LOGO.webp'),
+      alt: 'Logo GM Fincas',
     },
     items: [
       { name: 'Quiénes somos', href: '/#nosotros'},
