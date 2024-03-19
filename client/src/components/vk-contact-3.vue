@@ -39,6 +39,7 @@
       width: 50%;
       font-weight: bold;
       font-family: var(--vk-title-font);
+      color: var(--vk-text)
     }
     .section-description {
       font-size: 20px;
@@ -47,6 +48,7 @@
       margin-bottom: 50px;
       font-family: var(--vk-text-font);
       max-width: 800px;
+      color: var(--vk-text)
     }
     .services {
       width: 100%;
@@ -69,6 +71,7 @@
     img {
       height: 30px;
       width: 30px;
+      filter: invert(100%);
     }
     p {
       display: flex;
@@ -76,6 +79,7 @@
       align-items: center;
       max-width: 240px;
       width: 100%;
+      color: var(--vk-text)
     }
     
     @media (max-width: 600px) {

@@ -55,6 +55,7 @@
       left: -0px;
       bottom: -0px;
       z-index: 0;
+      object-fit: cover;
       filter: brightness(.5);
     }
     .contents {

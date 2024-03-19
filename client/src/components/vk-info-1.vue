@@ -38,6 +38,7 @@ export default {
     width: 50%;
     font-weight: bold;
     font-family: var(--vk-title-font);
+    color: var(--vk-text)
   }
   .section-description {
     font-size: 20px;
@@ -46,6 +47,7 @@ export default {
     margin-bottom: 50px;
     font-family: var(--vk-text-font);
     max-width: 800px;
+    color: var(--vk-text)
   }
   .services {
     width: 100%;

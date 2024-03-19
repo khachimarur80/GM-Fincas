@@ -30,20 +30,20 @@ export default {
   },
   data: () => ({
     theme: {
-      primary: '#2196F3',
-      secondary: '#1976D2',
-      accent: '#FFC107',
-      error: '#f44336',
-      warning: '#FF9800',
-      info: '#03A9F4',
-      success: '#4CAF50',
-      text: '#333',
-      text_secondary: '#666',
-      text_light: '#eee',
-      text_dark: '#111',
-      background: '#f9f9f9',
-      background_dark: '#888',
-      background_light: '#ffffff',
+      primary: '#fac32a',
+      secondary: '#333333',
+      accent: '#FFFFFF',
+      error: '#FF3333',
+      warning: '#FFD700',
+      info: '#1E90FF',
+      success: '#32CD32',
+      text: '#FFFFFF',
+      text_secondary: '#CCCCCC',
+      text_light: '#F5F5F5',
+      text_dark: '#000000',
+      background: '#111',
+      background_dark: '#111111',
+      background_light: '#222222',
       text_font: 'Segoe UI Thin',
       title_font: 'Segoe UI',
     }
@@ -68,5 +68,6 @@ html, body {
   padding: 0px;
   scroll-behavior: smooth;
   user-select: none;
+  background: var(--vk-background);
 }
 </style>
