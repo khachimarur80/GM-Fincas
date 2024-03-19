@@ -20,7 +20,7 @@ export default {
   name: 'HelloWorld',
   data: () => ({
     slogan: "Nuestro horario",
-    text: "Estamos abiertos de Lunes a Viernes, desde las 9:00 a las 15:00.",
+    text: "09.00-15h horario al público",
   })
 }
 </script>

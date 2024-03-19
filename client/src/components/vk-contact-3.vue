@@ -10,8 +10,8 @@
         {{ text }}
       </div>
       <div class="contents">
-        <p><img src="@/assets/icons/viber.png"/> +34 123 45 67 89</p>
-        <p><img src="@/assets/icons/email.png"/> contacto@gmfincas.com</p>
+        <p><img src="@/assets/icons/viber.png"/> +34 974 22 30 04</p>
+        <p><img src="@/assets/icons/email.png"/> info@gmfincas.net</p>
       </div>
     </div>
   </template>

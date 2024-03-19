@@ -35,7 +35,7 @@
     .hero {
       height: calc(100vh - 100px);
       width: 100%;
-      background: white;
+      background: var(--vk-background);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -51,7 +51,7 @@
       bottom: -0px;
       z-index: 0;
       object-fit: cover;
-      filter: brightness(.5);
+      filter: brightness(.5) saturate(0%) blur(1px);
     }
     .contents {
       display: flex;
