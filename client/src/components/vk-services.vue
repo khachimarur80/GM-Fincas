@@ -47,7 +47,7 @@
             src: require("@/assets/icons/llave-de-casa.svg"),
             alt: "Icono de llave de casa",
           },
-          name: " Experiencia de 30 años",
+          name: "+ de 30 años de experiencia",
           text: "Nuestra trayectoria garantiza confianza y profesionalismo. ¡30 años liderando en gestión de comunidades!"
         },
         {
@@ -59,7 +59,7 @@
             src: require("@/assets/icons/soporte-tecnico.svg"),
             alt: "Icono de mano con llave inglesa",
           },
-          name: "Servicio integral",
+          name: "Servicios integrados",
           text: "Gestión completa: contabilidad, incidencias y más. ¡Todo para la tranquilidad de tu comunidad!"
         },
         {
@@ -83,7 +83,7 @@
             src: require("@/assets/icons/calidad.svg"),
             alt: "Icono sello calidad"
           },
-          name: "Profesionalismo garantizado",
+          name: "Transparencia y confianza",
           text: "Equipo dedicado y altamente cualificado. Confía en nosotros para una gestión profesional y eficiente de tu comunidad."
         }
       ],
