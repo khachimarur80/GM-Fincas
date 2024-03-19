@@ -20,11 +20,6 @@
   export default {
     name: 'HelloWorld',
     data: () => ({
-      logo: {
-        src: require('@/assets/logo.png'),
-        lazySrc: require('@/assets/logo.png'),
-        alt: '',
-      },
       hero: {
         src: require('@/assets/images/hero/hero.webp'),
         lazySrc: require('@/assets/lazy-images/hero/hero.webp'),
