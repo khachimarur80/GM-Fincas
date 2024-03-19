@@ -26,7 +26,6 @@
         alt: '',
       },
       slogan: "Porque cada vecino importa, cada gestión cuenta.",
-      text: "GM Fincas, una empresa con 30 años de experiencia, nos dedicamos a la gestión integral de comunidades. Especializados en contabilidad, solucionamos incidencias y brindamos atención personalizada. Confía en nosotros para la tranquilidad de tu comunidad.",
     })
   }
   </script>
@@ -58,7 +57,6 @@
       flex-direction: column;
       align-items: center;
       width: 70%;
-      max-width: 700px;
       z-index: 3;
       color: var(--vk-text-light);
     }
@@ -171,5 +169,12 @@
         width: 80%;
       }
     }
+
+    @media (min-width: 705px) {
+      .slogan {
+        font-size: 4vw;
+      }
+    }
+
   </style>
   
