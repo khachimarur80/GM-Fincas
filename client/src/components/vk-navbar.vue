@@ -57,10 +57,13 @@ export default {
     z-index: 1;
   }
   .navbar-logo {
-    height: 50%;
+    height: 100%;
     box-sizing: border-box;
     padding: 5px;
     aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .navbar-title {
     height: 100%;
