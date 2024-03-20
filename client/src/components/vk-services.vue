@@ -229,10 +229,10 @@
       .service {
         width: calc(100% - 40px);
         max-width: 1000px;
-        margin-bottom: -30px;
+        margin-bottom: -10px;
       }
       .service-image {
-        aspect-ratio: 3/2;
+        aspect-ratio: 5/5;
       }
       .service-icon {
         height: 80px;
@@ -241,7 +241,10 @@
       }
       .service-details {
         padding-top: 50px;
-        height: 200px;
+        height: 80px;
+      }
+      .service-text {
+        display: none;
       }
       .contents {
         flex-wrap: wrap;
