@@ -94,7 +94,9 @@ export default {
     padding: 6px 8px 6px 8px;
     position: relative;
     z-index: 2;
-    transition: color .3s ease-out
+    transition: color .3s ease-out;
+    font-family: var(--vk-title-font);
+    font-weight: bold;
   }
   .navbar-item:before {
     transition: background .15s ease-out;

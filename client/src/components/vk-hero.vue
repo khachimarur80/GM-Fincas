@@ -66,6 +66,7 @@
       font-family: var(--vk-title-font);
       margin-top: 20px;
       margin-bottom: 50px;
+      font-weight: bold;
     }
     .text {
       font-size: 25px;
