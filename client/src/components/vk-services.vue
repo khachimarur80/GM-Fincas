@@ -72,7 +72,7 @@
             alt: "Icono de personas conversando",
           },
           name: "Atención personalizada",
-          text: "Nos adaptamos a tus necesidades. Nuestro compromiso es brindar un servicio personalizado."
+          text: "Nos adaptamos a tus necesidades. Nuestro compromiso es brindar un servicio a tu medida."
         },
         {
           image: {
