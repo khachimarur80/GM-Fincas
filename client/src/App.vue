@@ -44,8 +44,8 @@ export default {
       background: '#111',
       background_dark: '#111111',
       background_light: '#222222',
-      text_font: 'Segoe UI Thin',
-      title_font: 'Segoe UI',
+      text_font: 'Arial Thin',
+      title_font: 'Arial',
     }
   }),
   mounted() {

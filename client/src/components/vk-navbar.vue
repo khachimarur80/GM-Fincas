@@ -12,6 +12,9 @@
       <a class="navbar-item" v-for="(item, i) in items" :href="item.href" :key="i">
         {{ item.name }}
       </a>
+      <a class="navbar-item" href="https://www.tucomunidad.com/#/login" target="_blank">
+        Mi cuenta
+      </a>
     </div>
   </div>
 </template>
@@ -25,8 +28,8 @@ export default {
       alt: 'Logo GM Fincas',
     },
     items: [
-      { name: 'Quiénes somos', href: '/#nosotros'},
-      { name: 'Dónde estamos', href: '/#donde'},
+      { name: 'Nosotros', href: '/#nosotros'},
+      { name: 'Ubicación', href: '/#donde'},
       { name: 'Horarios', href: '/#horarios'},
       { name: 'Contacto', href: '/#contacto'},
     ]
@@ -45,7 +48,8 @@ export default {
     gap: 20px;
     overflow: hidden;
     position: absolute;
-    background: transparent;
+    z-index: 1;
+    background: rgba(255, 255, 255, .1) !important;
   }
   .navbar-header {
     width: fit-content;
@@ -72,7 +76,8 @@ export default {
     align-items: center;
     margin-right: 10px;
     font-size: 35px;
-    color: var(--vk-text-light);
+    color: var(--vk-text-dark);
+    font-weight: bolder;
     font-family: var(--vk-title-font);
     user-select: none;
   }
@@ -89,7 +94,7 @@ export default {
   .navbar-item {
     text-decoration: none;
     min-width: fit-content;
-    color: var(--vk-text-light);
+    color: var(--vk-text-dark);
     font-size: 18px;
     padding: 6px 8px 6px 8px;
     position: relative;
@@ -112,7 +117,7 @@ export default {
     z-index: -1;
   }
   .navbar-item:hover:before {
-    background: var(--vk-background-dark);
+    background: var(--vk-background-light);
   }
 
   @media (max-width: 492px) {
@@ -133,7 +138,7 @@ export default {
     }
   }
 
-  @media (min-width: 493px) and (max-width: 845px) {
+  @media (min-width: 493px) and (max-width: 900px) {
     .navbar-header {
       height: 80px;
     }
