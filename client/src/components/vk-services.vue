@@ -100,6 +100,8 @@
       font-family: var(--vk-title-font);
       color: var(--vk-primary);
       font-size: 22px;
+      padding-left: 2px;
+      padding-right: 2px;
     }
     .section-header {
       font-size: 40px;
