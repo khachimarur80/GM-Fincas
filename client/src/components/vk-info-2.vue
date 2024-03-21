@@ -28,7 +28,7 @@ export default {
   name: 'HelloWorld',
   data: () => ({
     slogan: "Nuestra localización",
-    text: "Estamos en Calle Castillo, 5, 1º Derecha, 22002 Huesca",
+    text: "Estamos en Calle Castilla, 5, 1º Derecha, 22002 Huesca",
     latitude: 42.139022357828715,
     longitude: -0.40839870270752376,
     zoomLevel: 20,

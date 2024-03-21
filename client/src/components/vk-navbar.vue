@@ -76,6 +76,7 @@ export default {
     align-items: center;
     margin-right: 10px;
     font-size: 35px;
+    transform: scale(.75) translateX(-25%) translateY(25%);
     color: var(--vk-text-dark);
     font-weight: bolder;
     font-family: var(--vk-title-font);
