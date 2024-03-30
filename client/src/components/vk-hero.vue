@@ -176,6 +176,12 @@
         font-size: 4vw;
       }
     }
-
+    
+    @media only screen and (max-width: 850px) and (orientation: landscape) {
+      .slogan {
+        margin-top: calc(50% - 150px);
+        transform: translateY(-50%);
+      }
+    }
   </style>
   
