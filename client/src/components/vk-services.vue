@@ -221,7 +221,7 @@
     .seemore {
       border: 2px solid transparent;
       border-radius: 5px;
-      width: 115px;
+      width: 130px;
       height: 35px;
       font-size: 16px;
       text-transform: uppercase;
