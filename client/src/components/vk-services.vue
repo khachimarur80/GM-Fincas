@@ -233,9 +233,6 @@
       cursor: pointer;
       min-width: fit-content !important;
     }
-    .seemore:hover {
-      border: 2px solid var(--vk-primary);
-    }
     .service-text-mobile {
       padding-top: 20px;
       display: none;
