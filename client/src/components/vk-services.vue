@@ -242,7 +242,7 @@
       margin-bottom: -10px;
     }
     .service-text-mobile-inner {
-      height: 60px;
+      height: fit-content;
       padding: 5px 20px 15px 20px;
     }
     @media (max-width: 600px) {
