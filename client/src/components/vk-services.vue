@@ -246,7 +246,7 @@
     }
     @media (max-width: 600px) {
       .service {
-        width: calc(100% - 40px);
+        width: calc(100% - 20px);
         max-width: 1000px;
         margin-bottom: -10px;
       }

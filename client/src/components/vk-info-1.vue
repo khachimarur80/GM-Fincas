@@ -1,5 +1,8 @@
 <template>
   <div class="services" id="horarios">
+    <div class="service-icon">
+      <img src="@/assets/icons/schedule.png" alt="Schedule icon" height="100%"/>
+    </div>
     <div class="section-name">
       Horarios
     </div>
@@ -26,6 +29,20 @@ export default {
 </script>
 
 <style scoped>
+  .service-icon {
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background: var(--vk-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-icon img {
+    filter: invert(80%) sepia(23%) saturate(4687%) hue-rotate(341deg) brightness(118%) contrast(96%);
+  }
   .section-name {
     margin-bottom: 10px;
     font-weight: bold;
