@@ -25,8 +25,8 @@
               {{ service.text }}
             </div>
             <div class="service-text-mobile">
-              <button class="seemore" @click="service.show = !service.show">Ver más</button>
-              <div class="service-text-mobile-inner" v-if="service.show">
+              <button class="seemore" @click="service.show = !service.show" v-if="!service.show">Ver más</button>
+              <button class="seemore" @click="service.show = !service.show" v-if="service.show">Ver menos</button><div class="service-text-mobile-inner" v-if="service.show">
                 {{ service.text }}
               </div>
             </div>
