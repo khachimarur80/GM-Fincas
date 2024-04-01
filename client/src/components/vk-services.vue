@@ -231,6 +231,7 @@
       transition: border .3s ease-out;
       background: none;
       cursor: pointer;
+      min-width: fit-content !important;
     }
     .seemore:hover {
       border: 2px solid var(--vk-primary);
@@ -246,7 +247,7 @@
     }
     @media (max-width: 600px) {
       .service {
-        width: calc(100% - 20px);
+        width: calc(100% - 40px);
         max-width: 1000px;
         margin-bottom: -10px;
       }

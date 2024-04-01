@@ -131,9 +131,11 @@ export default {
       gap: 0px;
     }
     .navbar-item {
-      font-size: 14px;
+      font-size: 3vw;
+      transform: scale(1.1);
     }
     .navbar-items {
+      padding: 0px;
       justify-content: center;
       gap: 0px;
     }
