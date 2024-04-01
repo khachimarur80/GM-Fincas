@@ -24,6 +24,12 @@
             <div class="service-text">
               {{ service.text }}
             </div>
+            <div class="service-text-mobile">
+              <button class="seemore" @click="service.show = !service.show">Ver más</button>
+              <div class="service-text-mobile-inner" v-if="service.show">
+                {{ service.text }}
+              </div>
+            </div>
             <div class="service-actions">
               <br>
             </div>
@@ -39,6 +45,7 @@
     data: () => ({
       services: [
         {
+          show: false,
           image: {
             src: require("@/assets/images/services/experiencia.webp"),
             alt: "Imagen de casa con llave",
@@ -51,6 +58,7 @@
           text: "Nuestra trayectoria garantiza confianza y profesionalismo. ¡30 años liderando en gestión de comunidades!"
         },
         {
+          show: false,
           image: {
             src: require("@/assets/images/services/servicio-integral.webp"),
             alt: "Escritorio con papeles y ordenador",
@@ -63,6 +71,7 @@
           text: "Gestión completa: contabilidad, incidencias y más. ¡Todo para la tranquilidad de tu comunidad!"
         },
         {
+          show: false,
           image: {
             src: require("@/assets/images/services/atencion-cliente.webp"),
             alt: "Foto de micro de unos cascos",
@@ -75,6 +84,7 @@
           text: "Nos adaptamos a tus necesidades. Nuestro compromiso es brindar un servicio a tu medida."
         },
         {
+          show: false,
           image: {
             src: require("@/assets/images/services/profesionalismo.webp"),
             alt: "Manos estrecandose",
@@ -225,6 +235,15 @@
     .seemore:hover {
       border: 2px solid var(--vk-primary);
     }
+    .service-text-mobile {
+      padding-top: 20px;
+      display: none;
+      margin-bottom: -10px;
+    }
+    .service-text-mobile-inner {
+      height: 60px;
+      padding: 5px 20px 15px 20px;
+    }
     @media (max-width: 600px) {
       .service {
         width: calc(100% - 40px);
@@ -241,10 +260,13 @@
       }
       .service-details {
         padding-top: 50px;
-        height: 80px;
+        min-height: 80px;
       }
       .service-text {
         display: none;
+      }
+      .service-text-mobile {
+        display: block;
       }
       .contents {
         flex-wrap: wrap;
