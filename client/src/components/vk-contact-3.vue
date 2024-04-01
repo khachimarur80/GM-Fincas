@@ -45,7 +45,7 @@
       font-size: 20px;
       width: 60%;
       margin-top: 30px;
-      margin-bottom: 50px;
+      margin-bottom: 10px;
       font-family: var(--vk-text-font);
       max-width: 800px;
       color: var(--vk-text)
