@@ -9,11 +9,11 @@
       </div>
     </div>
     <div class="navbar-items">
-      <a class="navbar-item" v-for="(item, i) in items" :href="item.href" :key="i">
-        {{ item.name }}
-      </a>
       <a class="navbar-item" href="https://www.tucomunidad.com/#/login" target="_blank">
         Mi cuenta
+      </a>
+      <a class="navbar-item" v-for="(item, i) in items" :href="item.href" :key="i">
+        {{ item.name }}
       </a>
     </div>
   </div>
