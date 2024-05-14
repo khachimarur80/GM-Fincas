@@ -32,7 +32,9 @@
   
   <style scoped>
     .hero {
-      height: calc(100% - 100px);
+      height: calc(100dvh - 100px);
+      max-height: -webkit-fill-available;
+      min-height: -webkit-fill-available;
       width: 100%;
       background: var(--vk-background);
       display: flex;
