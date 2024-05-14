@@ -32,7 +32,7 @@
   
   <style scoped>
     .hero {
-      height: calc(100vh - 100px);
+      height: calc(100dvh - 100px);
       width: 100%;
       background: var(--vk-background);
       display: flex;
